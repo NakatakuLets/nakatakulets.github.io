@@ -1,5 +1,5 @@
 body{
-
+    color: #494949;
 }
 
 h2{
@@ -7,4 +7,8 @@ h2{
     color: #494949;/*文字色*/
     background: #fffaf4;/*背景色*/
     border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
-  }
+}
+.red{
+    color: red;
+    font-weight: bold;
+}
