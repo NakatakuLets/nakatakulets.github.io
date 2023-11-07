@@ -41,5 +41,5 @@
 ## お問い合わせ
 「中多久レッツ」代表 石丸隆司  
 TEL:[090-6901-5387](tel:09069015387)  
-E-mail:[nakataku.l.gym@gmail.com](mailto:nakataku.l.gym@gmail.com)
+E-mail:[nakataku.l.gym@gmail.com](mailto:nakataku.l.gym@gmail.com)  
 住所:[佐賀県多久市南多久町大字長尾4090-37](https://goo.gl/maps/SBXw3DXjrVQrzeUv9)
