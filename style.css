@@ -23,3 +23,11 @@ h2{
     text-align: center;
     font-size: 0.8rem;
 }
+#campaign-title-details {
+    font-size: 2rem;
+    color: red;
+}
+#campaign-price {
+    font-size: 1.5rem;
+    color: red;
+}
