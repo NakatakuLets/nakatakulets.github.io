@@ -33,7 +33,10 @@ h2{
     font-size: 1.5rem;
     color: red;
 }
-.photo-gallery img  {
-    width: 250px;
+.photo-gallery  {
     display: flex;
+}
+#photo-gallery-details  {
+    width: 250px;
+    margin: 10px;
 }
