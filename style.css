@@ -44,15 +44,3 @@ img{
 .blue{
     color: blue;
 }
-
-/*ここからモバイル向けのCSS*/
-@media (max-width: 800px) {
-    body{
-        color: #494949;
-        font-size: 36px;
-        text-size-adjust: none;
-    }
-    h2{
-        font-size: 48px;
-    }
-}
