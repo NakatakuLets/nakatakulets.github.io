@@ -73,7 +73,7 @@ ul.topnav {
 	background-color: #da0303;
 }
 ul.topnav li {
-	float: left;
+	float: center;
 }
 ul.topnav li a {
 	display: block;
@@ -83,7 +83,7 @@ ul.topnav li a {
 	color: white;
 }
 ul.topnav li a:hover:not(.active) {
-	background-color: #a9bce2;
+	background-color: #e2555a;
 }
 ul.topnav li a.active {
 	background-color: #e2555a;
