@@ -91,3 +91,10 @@ ul.topnav li a.active {
 ul.topnav li.right {
 	float: right;
 }
+
+.strike {
+    text-decoration: line-through;
+}
+.small  {
+    font-size: 0.9rem;
+}
