@@ -101,12 +101,19 @@ ul.topnav li.right {
     object-fit: cover;
 }
 
-.features-parent {
-  display: flex;
-  justify-content: space-between; /* 並べる */
+#features-parent {
+    display: flex;             /* フレックスボックスを使って並べる */
+    justify-content: space-between;  /* 両端に配置 */
+    align-items: flex-start;   /* 上揃え */
+    gap: 20px;                 /* 画像とテキストの間に余白 */
 }
-.features-pic, .features {
-  width: 48%; /* 幅を調整 */
+
+#features-pic {
+    flex: 1; /* 必要に応じて調整 */
+}
+
+#features {
+    flex: 2; /* 必要に応じて調整 */
 }
 
 .features-pic img{
