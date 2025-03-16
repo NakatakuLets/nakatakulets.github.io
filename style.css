@@ -100,3 +100,17 @@ ul.topnav li.right {
     width: auto;
     object-fit: cover;
 }
+
+.features-parent {
+  display: flex;
+  justify-content: space-between; /* 並べる */
+}
+.features-pic, .features {
+  width: 48%; /* 幅を調整 */
+}
+
+.features-pic img{
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
