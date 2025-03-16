@@ -91,3 +91,7 @@ ul.topnav li.right {
 .small  {
     font-size: 0.9rem;
 }
+.site-header a{
+    color: inherit;
+    text-decoration: none;
+}
