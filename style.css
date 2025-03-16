@@ -51,6 +51,9 @@ img{
     img{
         width: 100px;
     }
+    #features-parent{
+        display: block;
+    }
 }
 .banner_schedule{
     border: #0066ff;
