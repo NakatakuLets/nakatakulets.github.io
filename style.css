@@ -3,14 +3,7 @@ body{
     font-size: 16px;
     text-size-adjust: none;
 }
-header{
-    border: solid;
-    border-color: orange;
-    border-width: 0.25rem;
-    border-radius: 2rem;
-    text-align: center;
-    margin: 0.5rem;
-}
+
 h2{
     padding: 0.5em;/*文字周りの余白*/
     color: #494949;/*文字色*/
