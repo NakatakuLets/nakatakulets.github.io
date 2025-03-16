@@ -105,19 +105,20 @@ ul.topnav li.right {
 }
 
 #features-parent {
-    display: flex;             /* フレックスボックスを使って並べる */
-    justify-content: space-between;  /* 両端に配置 */
-    align-items: flex-start;   /* 上揃え */
-    gap: 20px;                 /* 画像とテキストの間に余白 */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;  /* 画面幅が狭くなったときに折り返しを有効にする */
+    justify-content: space-between;
 }
 
 #features-pic {
-    flex: 1; /* 必要に応じて調整 */
+    flex: 1 1 200px; /* 幅を調整。親要素の50%を占める */
 }
 
 #features {
-    flex: 2; /* 必要に応じて調整 */
+    flex: 1 1 calc(100% - 200px); /* 幅を調整 */
 }
+
 
 .features-pic img{
     width: auto;
