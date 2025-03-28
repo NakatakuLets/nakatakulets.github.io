@@ -38,23 +38,6 @@ img{
     color: blue;
 }
 
-@media (max-width: 800px) {
-    h1{
-        font-size: 22px;
-    }
-    h2{
-        font-size: 20px;
-    }
-    h3{
-        font-size: 18px;
-    }
-    img{
-        width: 100px;
-    }
-    #features-parent{
-        display: block;
-    }
-}
 .banner_schedule{
     border: #0066ff;
     border-style: solid;
@@ -104,24 +87,25 @@ ul.topnav li.right {
     object-fit: cover;
 }
 
-#features-parent {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;  /* 画面幅が狭くなったときに折り返しを有効にする */
-    justify-content: space-between;
-}
-
-#features-pic {
-    flex: 1 1 200px; /* 幅を調整。親要素の50%を占める */
-}
-
-#features {
-    flex: 1 1 calc(100% - 200px); /* 幅を調整 */
-}
-
-
-.features-pic img{
+.pictures-gallery-img {
+    height: 200px;
     width: auto;
-    height: auto;
-    object-fit: contain;
+}
+#pictures-gallery {
+    padding-top: 10px;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    img{
+        width: 100px;
+    }
 }
