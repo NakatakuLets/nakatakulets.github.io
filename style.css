@@ -163,6 +163,23 @@ body {
     margin: 0 auto;
 }
 
+.hero-logo {
+    margin-bottom: 32px;
+}
+
+.hero-logo-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.hero-logo-img:hover {
+    transform: scale(1.02);
+}
+
 .hero-title {
     margin-bottom: 24px;
 }
@@ -207,6 +224,10 @@ body {
 @media (max-width: 767px) {
     .hero {
         padding: 60px 0;
+    }
+    
+    .hero-logo-img {
+        max-height: 150px;
     }
     
     .hero-main {
