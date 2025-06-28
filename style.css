@@ -168,12 +168,14 @@ body {
 }
 
 .hero-logo-img {
-    max-width: 100%;
+    max-width: 90%;
+    width: 400px;
     height: auto;
-    max-height: 200px;
+    max-height: 160px;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    object-fit: contain;
 }
 
 .hero-logo-img:hover {
@@ -227,7 +229,9 @@ body {
     }
     
     .hero-logo-img {
-        max-height: 150px;
+        max-width: 95%;
+        width: 300px;
+        max-height: 120px;
     }
     
     .hero-main {
