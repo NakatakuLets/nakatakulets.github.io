@@ -26,23 +26,25 @@
 </head>
 
 <body>
-        <header class="bg-red-600 p-4 flex justify-between items-center border-none shadow-none" id="site-header">
+        <header class="bg-gradient-to-r from-red-600 to-pink-500 p-4 flex justify-between items-center shadow-lg" id="site-header">
 
             <!-- ロゴ画像 -->
-            <img src="nakatakulets-logo.png" alt="駅前学習トレーニングジム 中多久レッツ" class="logo">
-            
+            <img src="nakatakulets-logo.png" alt="駅前学習トレーニングジム 中多久レッツ" class="h-12 w-auto rounded shadow-md transition-transform duration-300 hover:scale-105">
+
             <!-- ナビゲーション -->
             <nav>
-                <ul class="hidden md:flex space-x-4 text-white list-none">
-                    <li><a href="#" class="hover:underline text-inherit">ホーム</a></li>
-                    <li><a href="#campaign" class="hover:underline text-inherit">春期講習</a></li>
-                    <li><a href="#prices" class="hover:underline text-inherit">2025春･通常授業</a></li>
-                    <li><a href="#contact" class="hover:underline text-inherit">お問い合わせ</a></li>
+                <ul class="hidden md:flex space-x-8 text-white font-semibold tracking-wide">
+                    <li><a href="#" class="hover:text-yellow-300 transition-colors">ホーム</a></li>
+                    <li><a href="#campaign" class="hover:text-yellow-300 transition-colors">春期講習</a></li>
+                    <li><a href="#prices" class="hover:text-yellow-300 transition-colors">2025春･通常授業</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300 transition-colors">お問い合わせ</a></li>
                 </ul>
             </nav>
     
             <!-- ハンバーガーメニュー -->
-            <button id="menu-toggle" class="md:hidden text-white text-2xl">☰</button>
+            <button id="menu-toggle" class="md:hidden text-white text-3xl focus:outline-none focus:ring-2 focus:ring-yellow-300 rounded">
+                <span class="material-icons">menu</span>
+            </button>
         </header>
     
         <!-- モバイルメニュー -->
