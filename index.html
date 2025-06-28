@@ -1,211 +1,442 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <title>【公式】中多久レッツ</title>
+    <title>【公式】中多久レッツ - 英語にめっちゃ強い駅前学習トレーニングジム</title>
     <meta charset="UTF-8">
-    <meta name="keywords" content="多久,駅前,学習塾,英語,数学,中学生,受験">
-    <meta name="description" content="佐賀県多久市の中多久駅前の学習トレーニングジム「中多久レッツ」の公式HPです。">
+    <meta name="keywords" content="多久,駅前,学習塾,英語,数学,中学生,受験,夏期講習,英検">
+    <meta name="description" content="佐賀県多久市の中多久駅前の学習トレーニングジム「中多久レッツ」の公式HP。英語にめっちゃ強い学習塾で、2025年夏期講習生募集中！">
     <link rel="icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="144x144" href="favicon.png">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- スクリプト始まり。 -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script>
-            tailwind.config = {
-              corePlugins: {
-                preflight: false
-              }
-            }
-          </script>
-    <!-- スクリプト終わり。 -->
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body>
-        <header class="bg-gradient-to-r from-red-600 to-pink-500 p-4 flex justify-between items-center shadow-lg" id="site-header">
-
-            <!-- ロゴ画像 -->
-            <img src="nakatakulets-logo.png" alt="駅前学習トレーニングジム 中多久レッツ" class="h-12 w-auto rounded shadow-md transition-transform duration-300 hover:scale-105">
-
-            <!-- ナビゲーション -->
-            <nav>
-                <ul class="hidden md:flex space-x-8 text-white font-semibold tracking-wide">
-                    <li><a href="#" class="hover:text-yellow-300 transition-colors">ホーム</a></li>
-                    <li><a href="#campaign" class="hover:text-yellow-300 transition-colors">春期講習</a></li>
-                    <li><a href="#prices" class="hover:text-yellow-300 transition-colors">2025春･通常授業</a></li>
-                    <li><a href="#contact" class="hover:text-yellow-300 transition-colors">お問い合わせ</a></li>
-                </ul>
-            </nav>
-    
-            <!-- ハンバーガーメニュー -->
-            <button id="menu-toggle" class="md:hidden text-white text-3xl focus:outline-none focus:ring-2 focus:ring-yellow-300 rounded">
-                <span class="material-icons">menu</span>
-            </button>
-        </header>
-    
-        <!-- モバイルメニュー -->
-        <nav id="mobile-menu" class="hidden bg-red-700 text-white p-4">
-            <ul class="text-white">
-                <li><a href="#" class="block py-2 text-inherit">ホーム</a></li>
-                <li><a href="#campaign" class="block py-2 text-inherit">春期講習</a></li>
-                <li><a href="#prices" class="block py-2 text-inherit">2025春･通常授業</a></li>
-                <li><a href="#contact" class="block py-2 text-inherit">お問い合わせ</a></li>
-            </ul>
-        </nav>
-    
-        <script>
-            document.getElementById('menu-toggle').addEventListener('click', function() {
-                document.getElementById('mobile-menu').classList.toggle('hidden');
-            });
-        </script>
-
-    <main>
-        <h2>2025年春 高校入試結果速報</h2>
-        <p>
-            <font size="+2" color="#ff0000"><span style="font-weight: bold">発展クラス(全6名)</span></font><br>
-            <font color="#ff0000"><span style="font-weight: bold">佐賀西高校 3名</span></font><br>
-            佐賀北高校 1名<br>
-            武雄高校　 1名<br>
-            小城高校　 1名<br>
-            (うち佐賀清和高校S特進合格者3名, A特進合格者1名, 龍谷高校特進コースSS･A各1名)
-        </p>
-        <p>
-            <font size="+2" color="##ff0000"><span style="font-weight: bold">標準クラス(全7名)</span></font><br>
-            <font color="#ff0000"><span style="font-weight: bold">小城高校　 3名</span></font><br>
-            佐賀工業高校 2名<br>
-            佐賀女子高校(衛生看護科) 1名<br>
-            佐賀清和高校 1名
-        </p>
-        <div id="pictures-gallery">
-            <img src="photos/front.jpg" alt="「中多久レッツ」の正面の様子。" class="pictures-gallery-img, item" id="picture-front">
-            <img src="photos/Lesson_8th.jpg" alt="授業の様子①" class="pictures-gallery-img, in-the-lesson, item" id="pictures-gallery-01">
-            <img src="photos/Lesson_9th.jpg" alt="授業の様子②" class="pictures-gallery-img, in-the-lesson, item" id="pictures-gallery-02">
-        </div>
-        <!--ここから特徴-->
-        <div id="features-parent">
-            <div id="features">
-                <h2>中多久レッツのポイント</h2>
-                    <ul>
-                        <li>
-                            家計にやさしい<span class="red-and-underline">圧倒的低料金!</span>
-                        </li>
-                        <li>
-                            英語が特に強い: 中3の2学期までに英検準2級取得者が3名!<br>
-                            一斉模試で約1500名中、英語の成績上位80番以内が3名!
-                        </li>
-                        <li>
-                            学校･塾内での模試の成績優秀者への特待制度や兄弟姉妹割引制度などで<span class="red-and-underline">授業料を減免</span>します。
-                        </li>
-                        <li>
-                            授業中に質問しやすく、生徒一人一人に目が届く圧倒的少人数のクラス構成。
-                        </li>
-                        <li>
-                            各授業での小テストで合格点に達した生徒には<span class="red-and-underline">中多久マーケットで使える金券を進呈！</span>
-                        </li>
-                        <li>
-                            授業がない日でも、<span class="red-and-underline">塾生は空いている教室で自習をすることができます！</span><br>
-                            自宅ではなかなか集中できない、学校の試験前で追い込みたい生徒には絶対にオススメ！
-                        </li>
+<<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- ロゴ -->
+                <div class="logo">
+                    <img src="nakatakulets-logo.png" alt="中多久レッツ" class="logo-img">
+                </div>
+                
+                <!-- ナビゲーション -->
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#hero" class="nav-link">ホーム</a></li>
+                        <li><a href="#summer-campaign" class="nav-link">夏期講習</a></li>
+                        <li><a href="#features" class="nav-link">特徴</a></li>
+                        <li><a href="#contact" class="nav-link">お問い合わせ</a></li>
                     </ul>
-                    <p>
-                        ※英検®は、公益財団法人 日本英語検定協会の登録商標です。<br>
-                        ※このコンテンツは、公益財団法人 日本英語検定協会の承認や推奨、その他の検討を受けたものではありません。
-                    </p>
+                </nav>
+                
+                <!-- モバイルメニューボタン -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <span class="material-icons">menu</span>
+                </button>
             </div>
         </div>
-        <!--キャンペーン-->
-        <div id="campaign">
-            <h2>2025年 春期講習</h2>
-                <p>
-                    <a href="photos/2025_Spring_Flyer.jpg" data-lightbox="group"><img src="photos/2025_Spring_Flyer.jpg" width="400px" class="photo-gallery-details"></a><br>
-                    (クリックで拡大/<a href="pdf/2025_Spring_Flyer.pdf">PDF版はこちらから</a>)
-                </p>
-                    <h3>新小学6年生コース</h3>
-                        <p>
-                            英語先取り学習 (1.5h×4回) 特別キャンペーン価格 … <span class="red">1,000円</span>
-                        </p>
-                    <h3>新中学1年生コース</h3>
-                        <p>
-                            春期特別講座･英数 (2h×5回) 特別キャンペーン価格 … <span class="red">2,000円</span>
-                        </p>
-                    <h3>新中学2年生コース</h3>
-                        <p>
-                            春期特別講座 英数 (2h×4回) 特別キャンペーン価格 … <span class="red">8,000円</span>
-                        </p>
-                    <h3>新中学3年生コース</h3>
-                        <p>
-                            受験準備講座 英数理社 (1h×12回) (塾生:12,800円) 特別キャンペーン価格 … <span class="red">11,200円</span>
-                        </p>
-                <p>
-                    ※税込み表記・テキスト代別途<br>
-                    ※新中学3年生コースは一斉模試代別途。
-                </p>
-        </div>
-            <!--ここから時間割-->
-            <div id="schedule">
-            </div>
         
-        <!--ここから料金-->
-        <div id="prices">
-            <h2>2025年･春 通常授業(4月~夏期講習開始迄)</h2>
-            <p>
-                新学期生徒募集中！<br>
-                春期講習受講者は<span class="red">入会金(2,000円)無料！</span>
-            </p>
-                <h3>小学6年生コース</h3>
-                    <p>
-                        <span class="small">毎週木曜日＆第2･4火曜日 | 17:00~18:30</span><br>
-                        先取り英数・算国 (90分×6回/月) 月謝<span class="strike">8,000円</span> → <span class="red">6,500円</span><br>
-                    </p>
-                <h3>中学1年生(7年生)コース</h3>
-                    <p>
-                        <span class="small">英数: 毎週水曜日＆第2･4木曜日 | 理社: 第2･4金曜日 | 20:00~22:00</span><br>
-                        英数(120分×6回/月) + 理社(120分×2回/月) 月謝<span class="strike">21,000円</span> → <span class="red">18,000円</span>
-                    </p>
-                <h3>中学2年生(8年生)コース</h3>
-                    <p>
-                        <span class="small">英数: 毎週月曜日＆第2･4木曜日 | 理社: 第1･3土曜日 | 20:00~22:00</span><br>
-                        英数(120分×6回/月) + 理社(120分×2回/月) 月謝<span class="strike">21,000円</span> → <span class="red">18,000円</span>
-                    </p>
-                <h3>中学3年生(9年生)コース</h3>
-                    <p>
-                        <span class="small">英数: 毎週火曜日＆第1･3木曜日 | 理社: 毎週月曜日 | 20:00~22:00</span><br>
-                        【A･Bクラス】英数(120分×6回/月) + 理社(120分×4回/月) <span class="strike">23,500円</span> → <span class="red">20,500円</span>
-                    </p>
-                <h3>英検準1級対策講座 | 読解･英文法･英作文</h3>
-                    <p>
-                        対象: 高1~3年･社会人 <span class="small">毎週土曜日 | 20:00~21:30</span><br>
-                        英語(90分×4回/月) 月謝<span class="strike">10,000円</span> → <span class="red">8,000円</span><br>
-                        ※社会人は英検3級(中学3年程度)の英語力を有する方
-                    </p>
-                <p>
-                    ＊授業スケジュールについての詳細やその他お問い合わせは、下記の連絡先までお願いします。<br>
-                    ＊他塾との併行受講可能です。
-                </p>
+        <!-- モバイルメニュー -->
+        <div class="mobile-menu" id="mobile-menu">
+            <ul class="mobile-nav-list">
+                <li><a href="#hero" class="mobile-nav-link">ホーム</a></li>
+                <li><a href="#summer-campaign" class="mobile-nav-link">夏期講習</a></li>
+                <li><a href="#features" class="mobile-nav-link">特徴</a></li>
+                <li><a href="#contact" class="mobile-nav-link">お問い合わせ</a></li>
+            </ul>
         </div>
+    </header>
 
-        <!--ここからお問い合わせ-->
-        <div id="contact">
-        <h2>お問い合わせ</h2>
-            <p>
-                「中多久レッツ」代表 石丸隆司<br>
-                TEL:<a href="tel:09069615387">090-6961-5387</a><br>
-                E-Mail:<a href="mailto:nakataku.l.gym@gmail.com">nakataku.l.gym@gmail.com</a><br>
-                住所:<a href="https://goo.gl/maps/SBXw3DXjrVQrzeUv9">佐賀県多久市南多久町大字長尾4090-37</a>
-            </p>
-        </div>
+    <!-- メインコンテンツ -->
+    <main>
+        <!-- ヒーローセクション -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="hero-subtitle">英語にめっちゃ強い</span>
+                        <span class="hero-main">駅前学習トレーニングジム</span>
+                        <span class="hero-brand">中多久レッツ</span>
+                    </h1>
+                    <p class="hero-message">目覚めよ！中多久レッツでキミの眠れる力を解き放て！</p>
+                    <div class="hero-buttons">
+                        <a href="#summer-campaign" class="btn btn-primary">夏期講習について</a>
+                        <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 夏期講習キャンペーン -->
+        <section id="summer-campaign" class="summer-campaign">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">2025年 夏期講習</h2>
+                    <p class="section-subtitle">7月21日～8月23日</p>
+                    <p class="campaign-message">第一志望校突破を目指し、学力トレーニングで流した汗の一粒一粒が、必ず実を結ぶ！</p>
+                </div>
+                
+                <!-- コース一覧 -->
+                <div class="courses-grid">
+                    <!-- 小学6年コース -->
+                    <div class="course-card orange">
+                        <div class="course-header">
+                            <h3 class="course-title">小学6年 - 発展コース</h3>
+                            <div class="course-badge">英語先取り</div>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語先取り学習 + 国語</p>
+                            <p class="course-details">全9回･13.5h(1.5h/回)</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">ペア個別限定(2名)</span>
+                                    <span class="price-value">¥18,000</span>
+                                </div>
+                                <div class="price-option">
+                                    <span class="price-label">団体コース(3~5名)</span>
+                                    <span class="price-value">¥15,000</span>
+                                </div>
+                            </div>
+                            <p class="price-note">キャンペーン価格</p>
+                        </div>
+                    </div>
+
+                    <!-- 中学1年コース -->
+                    <div class="course-card green">
+                        <div class="course-header">
+                            <h3 class="course-title">中学1年(7年) - 発展コース</h3>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語･数学(各6回) + 理科･社会(各4回)</p>
+                            <p class="course-details">全20回･30h(1.5h/回)</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">在籍生徒</span>
+                                    <span class="price-value">¥34,000</span>
+                                </div>
+                                <div class="price-option highlight">
+                                    <span class="price-label">新規生徒</span>
+                                    <span class="price-value">¥30,000</span>
+                                    <span class="discount">¥4,000 OFF!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 中学2年コース -->
+                    <div class="course-card blue">
+                        <div class="course-header">
+                            <h3 class="course-title">中学2年(8年) - 発展コース</h3>
+                            <div class="course-badge new">新設開講！</div>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語･数学(各6回) + 理科･社会(各4回)</p>
+                            <p class="course-details">全20回･30h(1.5h/回)</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">在籍生徒</span>
+                                    <span class="price-value">¥34,000</span>
+                                </div>
+                                <div class="price-option highlight">
+                                    <span class="price-label">新規生徒</span>
+                                    <span class="price-value">¥30,000</span>
+                                    <span class="discount">¥4,000 OFF!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 中学3年 標準コース -->
+                    <div class="course-card red">
+                        <div class="course-header">
+                            <h3 class="course-title">中学3年(9年) - A・標準＋/B・標準コース</h3>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語･数学(各9回) + 理科･社会(各5回)</p>
+                            <p class="course-details">全28回･42h(1.5h/回)</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">在籍生徒</span>
+                                    <span class="price-value">¥45,000</span>
+                                </div>
+                                <div class="price-option highlight">
+                                    <span class="price-label">新規生徒</span>
+                                    <span class="price-value">¥42,000</span>
+                                    <span class="discount">¥3,000 OFF!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 中学3年 超基礎コース -->
+                    <div class="course-card red light">
+                        <div class="course-header">
+                            <h3 class="course-title">中学3年(9年) - 超基礎徹底コース</h3>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語･数学(各6回) + 理科･社会(各5回)</p>
+                            <p class="course-details">全22回･33h(1.5h/回)</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">在籍生徒</span>
+                                    <span class="price-value">¥38,000</span>
+                                </div>
+                                <div class="price-option highlight">
+                                    <span class="price-label">新規生徒</span>
+                                    <span class="price-value">¥35,000</span>
+                                    <span class="discount">¥3,000 OFF!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 英検対策コース -->
+                    <div class="course-card purple">
+                        <div class="course-header">
+                            <h3 class="course-title">高1~高3 & 社会人 - 英検準1級対策講座</h3>
+                            <div class="course-badge">英検対策</div>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語 全4回･8h(2h/回)</p>
+                            <p class="course-details">英検準2級取得者と同レベルの英語力の方向け</p>
+                            <div class="course-pricing">
+                                <div class="price-option single">
+                                    <span class="price-value">¥11,200</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="campaign-notes">
+                    <p>※ 7月~8月末日の間に入塾した新入生は、夏期講習と9~10月の通常授業をキャンペーン価格で受講できます！</p>
+                    <p>※ すべて税込表記・テキスト代別途</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 実績セクション -->
+        <section id="results" class="results">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">2025年春 高校入試結果速報</h2>
+                </div>
+                
+                <div class="results-grid">
+                    <div class="result-card">
+                        <h3 class="result-title">発展クラス（全6名）</h3>
+                        <div class="result-highlight">
+                            <span class="school-name highlight">佐賀西高校 3名</span>
+                        </div>
+                        <ul class="result-list">
+                            <li>佐賀北高校 1名</li>
+                            <li>武雄高校 1名</li>
+                            <li>小城高校 1名</li>
+                        </ul>
+                        <p class="result-note">うち佐賀清和高校S特進合格者3名, A特進合格者1名, 龍谷高校特進コースSS･A各1名</p>
+                    </div>
+                    
+                    <div class="result-card">
+                        <h3 class="result-title">標準クラス（全7名）</h3>
+                        <div class="result-highlight">
+                            <span class="school-name highlight">小城高校 3名</span>
+                        </div>
+                        <ul class="result-list">
+                            <li>佐賀工業高校 2名</li>
+                            <li>佐賀女子高校(衛生看護科) 1名</li>
+                            <li>佐賀清和高校 1名</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 特徴セクション -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">中多久レッツのポイント</h2>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="material-icons">attach_money</span>
+                        </div>
+                        <h3 class="feature-title">圧倒的低料金</h3>
+                        <p class="feature-description">家計にやさしい料金設定で、質の高い教育を提供します。</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="material-icons">language</span>
+                        </div>
+                        <h3 class="feature-title">英語が特に強い</h3>
+                        <p class="feature-description">中3の2学期までに英検準2級取得者が3名！一斉模試で約1500名中、英語の成績上位80番以内が3名！</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="material-icons">location_on</span>
+                        </div>
+                        <h3 class="feature-title">駅前立地</h3>
+                        <p class="feature-description">中多久駅前の便利な立地で、通いやすい環境を提供しています。</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span class="material-icons">group</span>
+                        </div>
+                        <h3 class="feature-title">少人数制指導</h3>
+                        <p class="feature-description">一人ひとりに目の届く少人数制で、きめ細かい指導を行います。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ギャラリーセクション -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">教室の様子</h2>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="photos/front.jpg" alt="中多久レッツの正面の様子" class="gallery-img">
+                        <p class="gallery-caption">教室外観</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="photos/Lesson_8th.jpg" alt="授業の様子①" class="gallery-img">
+                        <p class="gallery-caption">授業の様子①</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="photos/Lesson_9th.jpg" alt="授業の様子②" class="gallery-img">
+                        <p class="gallery-caption">授業の様子②</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- お問い合わせセクション -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">お問い合わせ</h2>
+                    <p class="section-subtitle">夏期講習のお申し込み・ご相談はお気軽にどうぞ</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="material-icons">person</span>
+                            </div>
+                            <div class="contact-details">
+                                <h3>代表</h3>
+                                <p>石丸隆司</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="material-icons">phone</span>
+                            </div>
+                            <div class="contact-details">
+                                <h3>電話番号</h3>
+                                <p><a href="tel:090-6961-5387">090-6961-5387</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="material-icons">email</span>
+                            </div>
+                            <div class="contact-details">
+                                <h3>メールアドレス</h3>
+                                <p><a href="mailto:nakataku.l.gym@gmail.com">nakataku.l.gym@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <span class="material-icons">place</span>
+                            </div>
+                            <div class="contact-details">
+                                <h3>住所</h3>
+                                <p>佐賀県多久市南多久町長尾4090-37</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-buttons">
+                        <a href="tel:090-6961-5387" class="btn btn-primary">
+                            <span class="material-icons">phone</span>
+                            お電話でお問い合わせ
+                        </a>
+                        <a href="mailto:nakataku.l.gym@gmail.com" class="btn btn-secondary">
+                            <span class="material-icons">email</span>
+                            メールでお問い合わせ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <div id="copyright">
-            © 中多久レッツ(Tashiro Hiroaki) 2023-2024<br>
-            このWebサイト上の文章･画像等の無断転載を禁じます。
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="nakatakulets-logo.png" alt="中多久レッツ" class="footer-logo-img">
+                </div>
+                <div class="footer-info">
+                    <p>英語にめっちゃ強い駅前学習トレーニングジム</p>
+                    <p>&copy; 2025 中多久レッツ. All rights reserved.</p>
+                </div>
+            </div>
         </div>
     </footer>
-</body>
 
+    <!-- JavaScript -->
+    <script>
+        // モバイルメニューの制御
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('active');
+        });
+
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // モバイルメニューのリンククリック時にメニューを閉じる
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.remove('active');
+            });
+        });
+    </script>
+</body>
 </html>
