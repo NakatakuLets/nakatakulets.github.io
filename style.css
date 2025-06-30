@@ -456,6 +456,16 @@ section {
     border: 1px solid rgba(230, 0, 51, 0.2);
 }
 
+.price-option.highlight .price-label {
+    flex: 1;
+}
+
+.price-option.highlight .price-original,
+.price-option.highlight .discount,
+.price-option.highlight .price-value {
+    margin-left: 8px;
+}
+
 .price-label {
     font-size: 14px;
     color: var(--text-secondary);
@@ -465,6 +475,13 @@ section {
     font-size: 18px;
     font-weight: 700;
     color: var(--primary-red);
+}
+
+.price-original {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-secondary);
+    text-decoration: line-through;
 }
 
 .discount {
@@ -704,7 +721,7 @@ section {
 
 @media (min-width: 1024px) {
     .features-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
