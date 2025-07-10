@@ -284,77 +284,141 @@
                     <h2 class="section-title">2025年 2学期通常授業</h2>
                     <p class="section-subtitle">各学年の時間割・料金</p>
                 </div>
-                <!--
-                <div class="schedule-content">
-                    <div class="schedule-overview">
-                        <div class="schedule-card">
-                            <div class="schedule-card-header">
-                                <h3 class="schedule-card-title">小学6年生コース</h3>
-                                <div class="schedule-price">¥3,500/月</div>
-                            </div>
-                            <div class="schedule-card-content">
-                                <p class="schedule-description">英語先取り・算国</p>
-                                <p class="schedule-time">第1,3土曜 13:00-14:30</p>
-                            </div>
+                <!-- コース一覧 -->
+                <div class="courses-grid">
+                    <!-- 小学6年コース -->
+                    <div class="course-card orange">
+                        <div class="course-header">
+                            <h3 class="course-title">小学6年生コース</h3>
                         </div>
-                        
-                        <div class="schedule-card">
-                            <div class="schedule-card-header">
-                                <h3 class="schedule-card-title">中学1年生発展コース</h3>
-                                <div class="schedule-price">¥8,800/月</div>
-                            </div>
-                            <div class="schedule-card-content">
-                                <p class="schedule-description">英語・数学</p>
-                                <p class="schedule-time">毎週金曜 19:30-21:00</p>
-                            </div>
-                        </div>
-                        
-                        <div class="schedule-card">
-                            <div class="schedule-card-header">
-                                <h3 class="schedule-card-title">中学2年生発展コース</h3>
-                                <div class="schedule-price">¥8,800/月</div>
-                            </div>
-                            <div class="schedule-card-content">
-                                <p class="schedule-description">英語・数学</p>
-                                <p class="schedule-time">毎週木曜 19:30-21:00</p>
-                            </div>
-                        </div>
-                        
-                        <div class="schedule-card">
-                            <div class="schedule-card-header">
-                                <h3 class="schedule-card-title">中学3年生標準コース</h3>
-                                <div class="schedule-price">¥11,000/月</div>
-                            </div>
-                            <div class="schedule-card-content">
-                                <p class="schedule-description">英語・数学・理科・社会</p>
-                                <p class="schedule-time">毎週土曜 19:30-21:00</p>
-                            </div>
-                        </div>
-                        
-                        <div class="schedule-card">
-                            <div class="schedule-card-header">
-                                <h3 class="schedule-card-title">中学3年生超基礎コース</h3>
-                                <div class="schedule-price">¥11,000/月</div>
-                            </div>
-                            <div class="schedule-card-content">
-                                <p class="schedule-description">英語・数学・理科・社会</p>
-                                <p class="schedule-time">毎週水曜 19:30-21:00</p>
-                            </div>
-                        </div>
-                        
-                        <div class="schedule-card">
-                            <div class="schedule-card-header">
-                                <h3 class="schedule-card-title">英検準1級対策講座</h3>
-                                <div class="schedule-price">¥8,000/月</div>
-                            </div>
-                            <div class="schedule-card-content">
-                                <p class="schedule-description">高1~3年・社会人対象</p>
-                                <p class="schedule-time">毎週土曜 20:00-21:30</p>
+                        <div class="course-content">
+                            <p class="course-description">国語・算数・英語</p>
+                            <p class="course-details">毎週月曜日+第2・4水曜日</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">在籍生徒</span>
+                                    <span class="price-value">¥13,000</span>
+                                </div>
+                                <div class="price-option highlight">
+                                    <span class="price-label">新規生徒</span>
+                                    <span class="price-original">¥13,000</span>
+                                    <span class="discount">¥2,000 OFF!</span>
+                                    <span class="price-value">¥11,000</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                -->
-                    <div class="schedule-download">
+
+                    <!-- 中学1年発展コース -->
+                    <div class="course-card green">
+                        <div class="course-header">
+                            <h3 class="course-title">中学1年生発展コース</h3>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語・数学 + 理科・社会</p>
+                            <p class="course-details">毎週水曜日+第2・4木曜日 + 第2・4金曜日</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">在籍生徒</span>
+                                    <span class="price-value">¥21,000</span>
+                                </div>
+                                <div class="price-option highlight">
+                                    <span class="price-label">新規生徒</span>
+                                    <span class="price-original">¥21,000</span>
+                                    <span class="discount">¥3,000 OFF!</span>
+                                    <span class="price-value">¥18,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 中学1年ペア個別クラス -->
+                    <div class="course-card green">
+                        <div class="course-header">
+                            <h3 class="course-title">中学1年生ペア個別クラス</h3>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語・数学</p>
+                            <p class="course-details">4回/月 (2h/回)</p>
+                            <div class="course-pricing">
+                                <div class="price-option single">
+                                    <span class="price-value">¥17,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 中学2年発展コース -->
+                    <div class="course-card blue">
+                        <div class="course-header">
+                            <h3 class="course-title">中学2年生発展コース</h3>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語・数学 + 理科・社会</p>
+                            <p class="course-details">毎週月曜日+第2・4木曜日 + 第1・3土曜日</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">在籍生徒</span>
+                                    <span class="price-value">¥21,000</span>
+                                </div>
+                                <div class="price-option highlight">
+                                    <span class="price-label">新規生徒</span>
+                                    <span class="price-original">¥21,000</span>
+                                    <span class="discount">¥3,000 OFF!</span>
+                                    <span class="price-value">¥18,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 中学3年A・Bクラス -->
+                    <div class="course-card red">
+                        <div class="course-header">
+                            <h3 class="course-title">中学3年生A・Bクラス</h3>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語・数学 + 理科・社会</p>
+                            <p class="course-details">毎週火曜日+第1・3木曜日 + 毎週月曜日</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">在籍生徒</span>
+                                    <span class="price-value">¥23,500</span>
+                                </div>
+                                <div class="price-option highlight">
+                                    <span class="price-label">新規生徒</span>
+                                    <span class="price-original">¥23,500</span>
+                                    <span class="discount">¥3,000 OFF!</span>
+                                    <span class="price-value">¥20,500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 中学3年ペア個別クラス -->
+                    <div class="course-card red">
+                        <div class="course-header">
+                            <h3 class="course-title">中学3年生ペア個別クラス</h3>
+                        </div>
+                        <div class="course-content">
+                            <p class="course-description">英語・数学 + 理科・社会</p>
+                            <p class="course-details">英数: 4回/月 (2h/回) + 理社: 4回/月 (2h/回)</p>
+                            <div class="course-pricing">
+                                <div class="price-option">
+                                    <span class="price-label">在籍生徒</span>
+                                    <span class="price-value">¥24,600</span>
+                                </div>
+                                <div class="price-option highlight">
+                                    <span class="price-label">新規生徒</span>
+                                    <span class="price-original">¥24,600</span>
+                                    <span class="discount">¥3,000 OFF!</span>
+                                    <span class="price-value">¥21,600</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="schedule-download">
                         <h3 class="schedule-download-title">詳細な時間割</h3>
                         <p class="schedule-download-description">
                             各コースの詳細な時間割・授業内容については、<br>
